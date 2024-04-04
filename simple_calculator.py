@@ -1,6 +1,9 @@
 def add(x, y):
     """Function to add two numbers"""
     return x + y
+def  subtract(x, y):
+    """Function to sub two numbers"""
+    return x - y
     
 def multiply(x, y):
     """Function to multiply two numbers"""
@@ -16,7 +19,7 @@ def divide(x, y):
     
 print("Select operation:")
 print("1. Addition")
-
+print("2. Subtraction")
 print("3. Multiply")
 print("4. Division")
 
