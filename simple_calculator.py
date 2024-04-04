@@ -5,11 +5,20 @@ def add(x, y):
 def multiply(x, y):
     """Function to multiply two numbers"""
     return x * y
+
+def divide(x, y):
+    """Function to divide two numbers"""
+    if y == 0:
+        return "Error! Division by zero."
+    else:
+        return x / y
+
     
 print("Select operation:")
 print("1. Addition")
 
 print("3. Multiply")
+print("4. Division")
 
 while True:
     choice = input("Enter choice (1/2/3/4): ")
