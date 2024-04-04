@@ -7,7 +7,7 @@ def multiply(x, y):
     return x * y
     
 print("Select operation:")
-print("1. Add")
+print("1. Addition")
 
 print("3. Multiply")
 
